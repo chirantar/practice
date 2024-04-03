@@ -82,12 +82,17 @@ public class Program {
 
         System.out.println(map);
 
+        int[] ans = {1,2,3};
+
+//        List<Integer> listAns =
+
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{1, 2});
         List<int[]> arr = new ArrayList<>();
         arr.add(new int[]{1, 2});
         arr.add(new int[]{2, 4});
         Collections.sort(arr, (x,y)->{return x[1] -y[1];});
-
+        StringBuilder sb = new StringBuilder();
+        new String(sb);
     }
 }
